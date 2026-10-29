@@ -1,0 +1,17 @@
+{
+  "name": "ultraapprove",
+  "version": "1.2.0",
+  "private": true,
+  "description": "ULTRA BET user app with Telegram Bot ID approval and Managed Database chat",
+  "packageManager": "npm@10.9.9",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "check": "node --check server.js"
+  },
+  "dependencies": {
+    "mysql2": "3.24.6"
+  }
+}
